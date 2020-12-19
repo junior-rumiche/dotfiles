@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+import psutil
+
+def get_memory(size: int) -> int:
+    return int((size/1024)/1024)
+
+def main():
+    memory = psutil.virtual_memory()
+    print(f"{get_memory(memory.used)}MB / {get_memory(memory.total)}MB")
+
+
+main()
