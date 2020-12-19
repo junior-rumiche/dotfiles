@@ -9,4 +9,4 @@ def get_cpu()-> int:
         sum += i
     return sum/len(data)
 
-print("%.1f%s"%(get_cpu(), "%"))
+print("%.1f%s"%(get_cpu(), "%  "))

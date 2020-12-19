@@ -6,7 +6,7 @@ def get_memory(size: int) -> int:
 
 def main():
     memory = psutil.virtual_memory()
-    print(f"{get_memory(memory.used)}MB / {get_memory(memory.total)}MB")
+    print(f"{get_memory(memory.used)}MB / {get_memory(memory.total)}MB ")
 
 
 main()

@@ -1,2 +1,2 @@
-user=`whoami`
+user=`whoami | tr '[[:lower:]]' '[[:upper:]]'`
 echo "$user "

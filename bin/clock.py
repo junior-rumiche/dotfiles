@@ -16,4 +16,4 @@ def define(hour: int) -> int:
         aux =  "PM"
         return hour-12
 
-print(f"{define(now.hour)}:{now.minute}:{aux}")
+print(f"{define(now.hour)}:{now.minute}:{aux} ")
