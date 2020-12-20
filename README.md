@@ -37,7 +37,7 @@ pip install psutil
 
 ## Preview
 
-![screen_.png]('.i3/image/screen.png' "preview")
+![screen_.png](/.i3/image/screen.png)
 
 # shorcuts
 
