@@ -4,7 +4,7 @@
 
 ```
 
-sudo pacman -S  i3 xorg-xbacklitght xorg-xgamma  rofi i3blocks termite ranger ttf-font-awesome
+sudo pacman -S  i3 xorg-xbacklitght xorg-xgamma  rofi i3blocks termite ranger ttf-font-awesome scrot alsamixer alsa-utils nvim vim 
 
 
 ```
